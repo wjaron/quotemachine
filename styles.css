@@ -1,0 +1,48 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+.title {
+    margin-left: auto;
+    margin-right: auto;
+}
+.title h1 {
+    text-align: center;
+}
+.footer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    font-size: 12px;
+}
+#getquote {
+    margin-left: auto;
+    margin-right: auto;
+    display:inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.quote {
+    width: 500px;
+    height: 250px;
+    margin-top: 250px;
+    margin-bottom: 20px;
+    text-align: center;
+    position:relative;
+    vertical-align: middle;
+}
+.buttons {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-bottom: 250px;
+}
+.container.quote.well::before {
+    display:inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+/*.container.quote.well::after {*/
+    /*height: 90%;*/
+/*}*/
