@@ -26,3 +26,10 @@ $("#newquote").click(function () {
     $("#getquote").html(htmlString);
 });
 
+function tweetIt () {
+    var phrase = document.getElementById('getquote').innerText;
+    var tweetUrl = 'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' +
+        encodeURIComponent(phrase);
+
+    window.open(tweetUrl);
+}
