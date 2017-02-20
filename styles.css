@@ -43,6 +43,8 @@ body {
     vertical-align: middle;
     height: 100%;
 }
-/*.container.quote.well::after {*/
-    /*height: 90%;*/
-/*}*/
+.label {
+    margin: auto;
+    width: 50%;
+    display: block;
+}
